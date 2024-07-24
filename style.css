@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  width: 100vw;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  object-fit: contain;
+}
+
+.Cabecera {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Links {
+  font-size: 1.5rem;
+  display: flex;
+  width: 30rem;
+  justify-content: space-evenly;
+}
+
+.Links a:hover {
+  border-bottom: 3px solid #d8a054;
+}
+
+.Start {
+  margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.img1 {
+  margin: auto;
+  width: 30rem;
+  margin-top: 8rem;
+}
+
+.WithOur {
+  margin: auto;
+  margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.Parte2 {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Parte2p2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40rem;
+}
+
+.guion {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: -1rem;
+}
+
+.Parte2p2_2 {
+  text-align: start;
+}
+
+.OurStory {
+  font-family: "";
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.LearnMore {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: #d8a054;
+  width: 8rem;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.LearnMore1 {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: #d8a054;
+  width: 8rem;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.Parte3 {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Parte3p1 {
+  width: 25rem;
+}
+
+.Lorem {
+  margin: 2rem 0;
+}
+
+.Perfect {
+  font-weight: bold;
+  font-family: "";
+  font-size: 3rem;
+  text-align: start;
+}
+
+.img3 {
+  width: 25rem;
+}
+
+.Products {
+  font-size: 4rem;
+  font-family: "";
+  font-weight: bold;
+  text-align: left;
+  margin: 0.3rem;
+  margin-top: 2rem;
+  margin-left: 8vw;
+}
+
+.Cafes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.Cafe1 {
+  border: 2px solid #d8a054;
+  border-radius: 6px;
+  width: 20rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.img4 {
+  width: 5rem;
+  margin-top: -2.5rem;
+}
+
+.Mocha {
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.TipoCafe {
+  margin: auto;
+  width: 6rem;
+  padding-bottom: 2rem;
+}
+
+.TipoCafe p {
+  text-align: start;
+  margin: 1rem 0;
+}
+
+.Parte5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 15vw;
+}
+
+.LineaA2 {
+  width: 30vw;
+  height: 3px;
+  background: #d8a054;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.LineaA {
+  width: 30vw;
+  height: 3px;
+  background: #d8a054;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+.Titulo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Titulo span {
+  color: #d8a054;
+}
+
+.Final {
+  margin-top: 1rem;
+}
+
+.Final span {
+  color: #d8a054;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.LinksMenu {
+  display: none;
+  flex-direction: column;
+  align-items: end;
+}
+
+.LinksMenu a:hover {
+  border-bottom: 3px solid #d8a054;
+}
+
+#Check:checked ~ .LinksMenu {
+  display: flex;
+}
+
+.Cabecera label {
+  display: none;
+}
+
+@media only screen and (max-width: 777px) {
+  .Cabecera label {
+    display: block;
+  }
+
+  .Start {
+    font-size: 3rem;
+  }
+
+  .img1 {
+    width: 15rem;
+  }
+
+  .WithOur {
+    font-size: 3rem;
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  .OurStory {
+    font-size: 3rem;
+  }
+
+  .Perfect {
+    font-size: 2rem;
+  }
+
+  .img3 {
+    width: 13rem;
+  }
+
+  .Products {
+    font-size: 3rem;
+  }
+
+  .Cabecera {
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .LinksMenu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Parte2p2 {
+    width: 23rem;
+  }
+
+  .Parte3p1 {
+    width: 20rem;
+  }
+
+  .Start {
+    font-size: 2rem;
+  }
+
+  .Parte5 {
+    margin: auto;
+  }
+
+  .Products {
+    margin: auto;
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .Cafe1 {
+    width: 17rem;
+  }
+
+  .Parte2p2 {
+    width: 18rem;
+  }
+
+  .img3 {
+    display: none;
+  }
+}
